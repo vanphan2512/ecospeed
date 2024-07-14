@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<title>CÔNG TY TNHH ECOSPEED VIỆT NAM</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+
+<body>
+
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<div class="modal fade modal-search" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="widget widget_search">
+					<form method="get" class="searchform search-form" action="/">
+						<div class="form-group">
+							<input type="text" value="" name="search" class="form-control" placeholder="Search keyword"
+								id="modal-search-input">
+						</div>
+						<button type="submit" class="btn">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div><!-- eof .modal -->
+
+	<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="modalLoginForm"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+				<div class="modal-body">
+					<div class="modal-header justify-content-center">
+						<h4 class="modal-title">Sign In</h4>
+					</div>
+					<form action="/">
+						<div class="form-group has-placeholder">
+							<label for="name-sigin">Your Name:</label>
+							<input type="text" class="form-control" id="name-sigin" placeholder="Name"
+								name="First name">
+						</div>
+						<div class="form-group has-placeholder">
+							<label for="sigpassword">Password:</label>
+							<input type="password" class="form-control" id="sigpassword" placeholder="password"
+								name="sigpassword">
+						</div>
+						<div class="modal-password">
+							<a href="#" class="modal-password-btn">Forgot password?</a>
+						</div>
+						<div class="modal-footer d-flex justify-content-center">
+							<button type="submit" class="btn btn-small btn-wide btn-maincolor log-btn">Log in</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal-image item-media cover-image s-cover-right d-none d-md-block">
+					<img src="img/register-side.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<div class="header_absolute ds ms s-overlay">
+
+				<!--topline section-->
+				<section
+					class="page_topline with-cart s-pt-10 s-pb-3 s-py-xl-0 topline-overflow-visible ds ms s-parallax s-overlay bg-size-auto">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-md-left text-center">
+								<ul class="top-includes border-divided">
+									<li>
+										<i class="color-main ico ico-map-marker fs-14 mr-2"></i>
+										Số 9D7, Khu đô thị mới Đại Kim, Phường Đại Kim, Quận Hoàng Mai, Thành phố Hà
+										Nội, Việt Nam
+									</li>
+									<li class="d-block d-xl-inline-block meta-email">
+										<a href="mailto:contact@ecospeed.vn">
+											<i class="color-main ico ico-envelope-alt fs-14 mr-2"></i>
+											contact@ecospeed.vn
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6 text-md-right text-center">
+								<ul class="top-includes border-divided">
+									<li class="d-block d-xl-inline-block">
+										<div class="meta-phone">
+											<a href="callto:024-3858-2525">
+												<i class="ico ico-phone color-main fs-14 pr-2"></i>024-3858-2525
+											</a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="search_modal_button">
+											<i class="fa fa-search"></i>
+										</a>
+										<div class="dropdown dropdown-card">
+											<a class="dropdown-toggle dropdown-shopping-cart" href="#" role="button"
+												id="dropdown-shopping-cart" data-toggle="dropdown" aria-haspopup="true"
+												aria-expanded="false">
+												<i class="ico ico-shopping-bag"></i>
+												<span class="badge bg-maincolor">2</span>
+											</a>
+											<div class="dropdown-menu dropdown-menu-right dropdown-cart ls"
+												aria-labelledby="dropdown-shopping-cart">
+												<div class="widget woocommerce widget_shopping_cart">
+
+
+													<div class="widget_shopping_cart_content">
+
+														<ul class="product_list_widget">
+															<li>
+																<a href="shop-product-right.html">
+																	<img src="images/shop/05.jpg" alt="">
+																	<span class="product-title">Walmec Temperature
+																		Aluminum</span>
+																</a>
+																<div class="d-flex justify-content-between shop-item">
+																	<p class="shop-desk">Pipe Welding</p>
+																	<a href="#" class="remove"
+																		aria-label="Remove this item"
+																		data-product_id="73" data-product_sku=""><i
+																			class="fs-14 ico-trash color-main2"></i></a>
+																</div>
+																<div class="d-flex align-items-center">
+																	<div class="woocommerce-Price-amount amount">
+																		<span
+																			class="woocommerce-Price-currencySymbol">$</span>55<sup>00</sup>
+																	</div>
+																</div>
+															</li>
+															<li>
+																<a href="shop-product-right.html">
+																	<img src="images/shop/03.jpg" alt="">
+																	<span class="product-title">Weld Gloves Tig</span>
+																</a>
+																<div class="d-flex justify-content-between shop-item">
+																	<p class="shop-desk">Frame Welding</p>
+																	<a href="#" class="remove"
+																		aria-label="Remove this item"
+																		data-product_id="73" data-product_sku=""><i
+																			class="fs-14 ico-trash color-main2"></i></a>
+																</div>
+																<div class="d-flex align-items-center">
+																	<div class="woocommerce-Price-amount amount">
+																		<span
+																			class="woocommerce-Price-currencySymbol">$</span>55<sup>00</sup>
+																	</div>
+																</div>
+															</li>
+														</ul>
+
+														<p class="woocommerce-mini-cart__total total">
+															Subtotal:
+															<span class="woocommerce-Price-amount amount fw-500">
+																<span class="woocommerce-Price-currencySymbol">$</span>
+																110.00
+															</span>
+														</p>
+
+														<p class="woocommerce-mini-cart__buttons buttons">
+															<a href="shop-cart.html"
+																class="btn btn-small btn-maincolor button wc-forward">View
+																cart</a>
+															<a href="shop-checkout.html"
+																class="btn btn-small btn-outline-maincolor button checkout wc-forward">Checkout</a>
+														</p>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+										<a href="#" data-toggle="modal" data-target="#modalLoginForm"><i
+												class="fa fa-user"></i></a>
+									</li>
+
+
+									<li>
+										<span class="social-icons">
+											<a href="https://www.facebook.com/profile.php?id=100048729954906"
+												class="fa fa-facebook " title="facebook"></a>
+											<a href="https://www.youtube.com/watch?v=iAF2ynN9gzg&t=5s"
+												class="fa fa-youtube-play " title="youtube-play"></a>
+											<a href="https://www.youtube.com/watch?v=FT7VaJCNJJA&t=6s"
+												class="fa fa-twitter " title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram "
+												title="instagram"></a>
+										</span>
+									</li>
+
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--eof topline-->
+
+				<header class="page_header main_header s-py-md-0 ds ms justify-nav-end s-bordertop">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-lg-3 col-md-5 col-11">
+								<a href="./" class="logo">
+									<img src="images/logo5.png" alt="">
+								</a>
+							</div>
+							<div class="col-lg-9 col-md-7 col-1">
+								<div class="nav-wrap">
+									<!-- main nav start -->
+									<nav class="top-nav">
+										<ul class="nav sf-menu">
+											<li class="active">
+												<a href="index.html">Trang chủ</a>
+											</li>
+
+											<!-- about -->
+											<li>
+												<a href="about.html">Giới thiệu</a>
+											</li>
+											<!-- eof about -->
+
+											<!-- Dự án -->
+											<li>
+												<a href="project.html">Dự án</a>
+											</li>
+											<!-- eof Dự án -->
+
+											<!-- Sản phẩm -->
+											<li>
+												<a href="products.html">Sản phẩm</a>
+											</li>
+											<!-- eof Sản phẩm -->
+
+											<!-- Bài viết -->
+											<li>
+												<a href="posts.html">Bài viết</a>
+											</li>
+											<!-- eof Bài viết -->
+
+											<!-- Bài viết -->
+											<li>
+												<a href="contact.html">Liên hệ</a>
+											</li>
+											<!-- eof Bài viết -->
+
+										</ul>
+
+
+									</nav>
+									<!-- eof main nav -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header toggler -->
+					<span class="toggle_menu"><span></span></span>
+
+				</header>
+
+
+				<section
+					class="page_title ds ms s-pt-120 s-pb-50 s-pt-lg-150 s-pb-lg-90 page_title s-parallax s-overlay bg-size-auto">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-12 text-center text-lg-left">
+								<h1>Giới thiệu</h1>
+								<ol class=" breadcrumb">
+									<li class="breadcrumb-item">
+										<a href="./">Trang chủ</a>
+									</li>
+									<li class="breadcrumb-item active">
+										Giới thiệu
+									</li>
+								</ol>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+
+			<section id="about" class="ls s-pt-60 s-pb-55 s-py-lg-100 s-py-xl-150">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-7">
+							<div class="images-wrap-item img-left">
+								<img src="images/founder01.jpg" alt="">
+								<img class="images-back" src="images/founder02.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div class="divider-35 divider-xl-105"></div>
+							<h3 class="big special-heading">
+								Gerald <span class="color-main">Evans</span>
+							</h3>
+							<p class="special-heading subheading with-line">Cofounder</p>
+							<div class="divider-35 divider-xl-65"></div>
+							<p>
+								Since 1999, Stilbro has been servicing all of San Diego. Our Mission is to work
+								diligently and
+								efficiently with every client ensuring a smooth and painless process, while we make
+								their
+								vision into reality.
+							</p>
+							<p>
+								With our knowledge and experience, it is our goal to attend to our clients needs, going
+								above and beyond their expectations. Long's Welding is your choice for the highest
+								quality
+								and most innovative ideas in iron metal works and ornamentals.
+							</p>
+							<div class="divider-35 divider-lg-60"></div>
+							<h4 class="special-heading">Why <span class="color-main">Choose Us</span></h4>
+							<div class="divider-25"></div>
+							<ul class="list-styled list-wide">
+								<li>Superior precise quality welds</li>
+								<li>Welds can be made with little or no filler</li>
+								<li>Precise control of welding variables</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="services"
+				class="ds bs s-pt-60 s-pb-30 s-pt-lg-100 s-pb-lg-70 s-pt-xl-150 s-pb-xl-110 s-overlay s-parallax c-mb-10 c-gutter-60 item-steps service-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<h3 class="big special-heading">
+								<span class="shadow-heading">services</span>
+								Our <span class="color-main">services</span>
+							</h3>
+							<p class="special-heading subheading with-line">stilbro Metal Fabrication</p>
+						</div>
+						<div class="divider-20 divider-lg-30"></div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Titanium</span>
+											Welding</a>
+									</h4>
+									<p>
+										There are a few different processes that we use at JA
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service-step vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Mobile </span>Welding</a>
+									</h4>
+									<p>
+										The right process can make all the difference
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service-step vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Stainless Steel </span>
+											Welding</a>
+									</h4>
+									<p>
+										We will work with you to figure out what you need
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service-step vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Structual Steel</span>
+											Welding</a>
+									</h4>
+									<p>
+										Help you understand what we are doing, if it is something that concerns you
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service-step vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Magnesium</span>
+											Welding</a>
+									</h4>
+									<p>
+										Welding and fabrication is what we are passionate about here at JA
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service-step vertical-item service-padding text-center">
+								<div class="item-content">
+									<h4 class="service-title step-part">
+										<a href="service-single.html"><span class="color-main">Pipe</span> Welding</a>
+									</h4>
+									<p>
+										Complex jobs. Difficult installations. Artistic beauty.
+									</p>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+					</div><!-- .row* -->
+				</div>
+			</section>
+
+			<section id="gallery" class="ls s-py-60 s-py-lg-100 s-py-xl-150 c-gutter-0 gallery-tiled">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<h3 class="big special-heading">
+								Our <span class="color-main">Gallery</span>
+								<span class="shadow-heading">Gallery</span>
+							</h3>
+							<p class="special-heading subheading with-line">stilbro Metal Fabrication</p>
+							<div class="divider-35 divider-lg-70"></div>
+						</div>
+
+						<div class="col-12 col-lg-6">
+							<div class="row column-reverse row-md-reverse">
+								<div class="col-12 col-md-6 ds ms centered-md">
+									<div class="item-content padding-small triangle-right">
+										<h4>
+											<a href="gallery-single.html"><span class="color-main">Tig</span>
+												Welding</a>
+										</h4>
+										<p>Providing full-service mobile welding to all of San Diego and the surrounding
+											areas.</p>
+										<a href="gallery-single.html"
+											class="btn btn-small btn-outline-maincolor mt-xl-20">Read More</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<div class="cover-image">
+										<img src="images/gallery/14.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-lg-6 cs">
+							<div class="row column-reverse">
+								<div class="col-12 col-md-6 centered-md">
+									<div class="item-content padding-small triangle-right">
+										<h4>
+											<a class="links-darkgrey" href="gallery-single.html">Mig <span
+													class="color-light">Welding</span></a>
+										</h4>
+										<p>We bring everything needed, including a generator to power our electric
+											welders. </p>
+										<a href="gallery-single.html"
+											class="btn btn-small btn-outline-dark mt-xl-20">Read More</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<div class="cover-image">
+										<img src="images/gallery/16.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-Fmd-6 col-lg-3">
+							<div class="cover-image">
+								<img src="images/gallery/15.jpg" alt="">
+							</div>
+						</div> <!-- .col-* -->
+
+						<div class="col-12 col-md-6 col-lg-3 ds ms centered-md">
+							<div class="item-content padding-small triangle-left">
+								<h4>
+									<a href="gallery-single.html"><span class="color-main">Stick </span>Welding</a>
+								</h4>
+								<p>We can help you with any on/off-site welding. Welding Repair or Replace an alloy </p>
+								<a href="gallery-single.html" class="btn btn-small btn-outline-maincolor mt-xl-20">Read
+									More</a>
+							</div>
+						</div><!-- .col-* -->
+
+						<div class="col-12 col-lg-6 order-3">
+							<div class="cover-image ds ms s-overlay">
+								<img class="opacity-0" src="images/gallery/17.jpg" alt="">
+								<a href="" class="video-link photoswipe-link"
+									data-iframe="https://www.youtube.com/embed/NnewIthuokI" data-index="1"></a>
+							</div>
+						</div><!-- .col-* -->
+
+					</div><!-- .row* -->
+				</div>
+			</section>
+
+			<section
+				class="ds ms s-pt-60 s-pb-15 s-pt-lg-100 s-pb-lg-95 s-overlay s-parallax c-mb-40 c-mb-lg-0 achieve-bg bg-size-auto">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="icon-box text-center box-border-right">
+								<h3 class="counter-wrap color-main fs-60">
+									<span class="counter" data-from="0" data-to="2005" data-speed="1500">2005</span>
+								</h3>
+								<p>Company Established</p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="icon-box text-center box-border-right">
+								<h3 class="counter-wrap color-main fs-60">
+									<span class="counter" data-from="0" data-to="255" data-speed="1500">255</span>
+								</h3>
+								<p>Projects Done</p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="icon-box text-center box-border-right">
+								<h3 class="counter-wrap color-main fs-60">
+									<span class="counter" data-from="0" data-to="20" data-speed="1500">20</span>+
+								</h3>
+								<p>Business Parthners</p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="icon-box text-center">
+								<h3 class="counter-wrap color-main fs-60">
+									<span class="counter" data-from="0" data-to="205" data-speed="1500">205</span>
+								</h3>
+								<p>Happy Clients</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="team" class="ls s-py-60 s-py-lg-100 s-py-xl-150 c-gutter-60 text-center text-lg-left">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-lg-5 col-xl-4">
+							<h3 class="big special-heading">
+								<span class="shadow-heading">team</span>
+								Our <span class="color-main">team</span>
+							</h3>
+							<p class="special-heading subheading with-line">stilbro Metal inc</p>
+							<div class="divider-30 divider-lg-65"></div>
+							<p>
+								We are a highly skilled team with years of engineering and design experience. Our goal
+								is to surpass
+								your expectations !
+							</p>
+							<p>
+								AirForce Trained Veteran / Precision T.I.G. & M.I.G. Welding, 39 Years !
+							</p>
+							<div class="divider-30 divider-lg-65"></div>
+							<a class="btn btn-wide btn-big btn-maincolor" href="team.html">See More</a>
+						</div>
+						<div class="col-12 col-lg-7 col-xl-8 text-center">
+							<div class="divider-50 divider-lg-0"></div>
+							<div class="owl-carousel" data-margin="30" data-responsive-lg="2" data-responsive-md="2"
+								data-responsive-sm="2" data-responsive-xs="1" data-nav="false" data-loop="true"
+								data-autoplay="true">
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/01.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">Nicholas D. <span
+													class="color-main">Brown</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/02.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">Maria R. <span
+													class="color-main">Culler</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/03.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">Robert M. <span
+													class="color-main">Todd</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/04.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">Michael S. <span
+													class="color-main">Lawson</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/05.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">Peter A. <span
+													class="color-main">Riley</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+								<div
+									class="team-member vertical-item content-padding content-absolute text-center overflow-hidden">
+									<div class="item-media">
+										<img src="images/team/06.jpg" alt="">
+										<div class="media-links">
+											<a class="abs-link" title="" href="team-single.html"></a>
+										</div>
+									</div>
+									<div class="item-content ds ms">
+										<h4 class="team-name">
+											<a href="team-single.html">James Y. <span
+													class="color-main">Clarke</span></a>
+										</h4>
+										<p class="team-position subheading mb-0">
+											metal worker
+										</p>
+										<span class="social-icons">
+											<a href="https://facebook.com/" class="fa fa-facebook" title="facebook"></a>
+											<a href="https://twitter.com/" class="fa fa-twitter" title="twitter"></a>
+											<a href="https://linkedin.com/" class="fa fa-linkedin "
+												title="linkedin"></a>
+											<a href="https://instagram.com/" class="fa fa-instagram"
+												title="instagram"></a>
+											<a href="https://youtube.com/" class="fa fa-youtube-play"
+												title="youtube-play"></a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls ms s-pt-60 s-pb-10 s-py-lg-100">
+				<div class="container">
+					<div class="row c-mb-50 c-mb-lg-0">
+						<div class="col-12 col-lg-4 animate" data-animation="fadeInDown">
+							<div class="icon-box px-xl-50 text-center">
+								<div class="fs-50">
+									<i class="ico ico-building"></i>
+								</div>
+								<h4>
+									 Văn phòng<span class="color-main">của chúng tôi</span> 
+								</h4>
+								<p>View our locations around the world and find contact details for your nearest office.
+								</p>
+								<div class="scroll-link">
+									<a class="btn btn-small btn-outline-maincolor scroll-link"
+										href="contact.html#page_map">Locate the
+										Nearest</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-4 animate" data-animation="fadeInDown">
+							<div class="icon-box px-xl-50 text-center">
+								<div class="fs-50">
+									<i class="ico ico-paper-plane"></i>
+								</div>
+								<h4>
+									<span class="color-main">Drop us </span> a line
+								</h4>
+								<p>You can contact us by filling in this form any time you need professional support.
+								</p>
+								<div class="scroll-link">
+									<a class="btn btn-small btn-outline-maincolor scroll-link"
+										href="contact.html#contact-fields">Fill Our
+										Form</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-4 animate" data-animation="fadeInDown">
+							<div class="icon-box px-xl-50 text-center">
+								<div class="fs-50">
+									<i class="ico ico-gear"></i>
+								</div>
+								<h4>
+									<span class="color-main">Support</span>
+								</h4>
+								<p>Learn more about us and find resources that will help you with all of our products
+								</p>
+								<div class="scroll-link">
+									<a class="btn btn-small btn-outline-maincolor scroll-link"
+										href="contact.html#page_map">Open a Ticket</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="cs s-pt-55 s-pb-60 s-pt-lg-100 s-pb-lg-95">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-6">
+							<div class="media media-block text-center text-md-left">
+								<div class="icon-styled fs-50 color-light">
+									<i class="ico ico-message"></i>
+								</div>
+								<div class="media-body">
+									<h4><span class="color-light">Luôn cập nhật- Nhận thông tin</span> cập nhật qua email</h4>
+									<p>Hãy theo dõi những tin tức mới nhất của công ty.</p>
+								</div>
+							</div>
+
+							<div class="divider-30 d-block d-lg-none"></div>
+						</div>
+
+						<div class="col-lg-6 text-center mailchimp-with-text">
+
+							<div class="widget widget_mailchimp">
+
+
+								<form class="signup" action="/">
+									<label for="mailchimp_email">
+										<span class="screen-reader-text">Đăng ký:</span>
+									</label>
+
+									<input id="mailchimp_email" name="email" type="email"
+										class="form-control mailchimp_email" placeholder="Your email">
+
+									<button type="submit" class="search-submit btn btn-dark">Đăng ký cho tôi!</button>
+									<div class="response"></div>
+								</form>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_footer text-md-left page_footer ds ms s-pt-60 s-pb-10 s-pt-lg-100 s-pb-lg-45 s-pt-xl-150 s-pb-xl-100 c-gutter-60">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-4 text-md-center text-lg-left animate" data-animation="fadeInUp">
+
+							<div class="widget widget_bloginfo">
+								<a href="./" class="logo">
+									<img src="images/logo5.png" alt="">
+								</a>
+								<p>
+									Công ty TNHH EcoSpeed Việt Nam (ESV) được thành lập tháng 1 năm 2017, là doanh
+									nghiệp đầu tiên chuyển giao công nghệ và độc quyền phân phối công nghệ hàn EcoSpeed
+									từ Nhật Bản tại Việt Nam.
+								</p>
+								<span class="social-icons">
+
+									<a href="https://www.facebook.com/profile.php?id=100048729954906"
+										class="fa fa-facebook " title="facebook"></a>
+									<a href="https://www.youtube.com/watch?v=iAF2ynN9gzg&t=5s"
+										class="fa fa-youtube-play " title="youtube-play"></a>
+									<a href="https://www.youtube.com/watch?v=FT7VaJCNJJA&t=6s" class="fa fa-twitter "
+										title="twitter"></a>
+									<a href="https://linkedin.com/" class="fa fa-linkedin " title="linkedin"></a>
+									<a href="https://instagram.com/" class="fa fa-instagram " title="instagram"></a>
+								</span>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 animate" data-animation="fadeInUp">
+							<div class="widget widget_working_hours">
+								<h3>
+									<span class="color-main">Liên hệ</span>
+								</h3>
+								<ul class="list-bordered">
+
+									<li>
+										<a href="contact.html#page_map">
+											<div class="icon-inline">
+												<i class="ico ico-map-marker color-main"></i>
+												<p>Số 9D7, Khu đô thị mới Đại Kim, Phường Đại Kim, Quận Hoàng Mai, Thành
+													phố Hà Nội, Việt Nam </p>
+											</div>
+										</a>
+									</li>
+
+									<li>
+										<a href="callto:024-3858-2525 ">
+											<div class="icon-inline">
+												<i class="ico ico-phone color-main"></i>
+												<p>024-3858-2525 </p>
+											</div>
+										</a>
+									</li>
+
+									<li>
+										<a href="mailto:contact@ecospeed.vn">
+											<div class="icon-inline">
+												<i class="ico ico-envelope-alt color-main"></i>
+												<p>contact@ecospeed.vn</p>
+											</div>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 animate" data-animation="fadeInUp">
+							<div class="widget widget_mailchimp">
+
+								<h3 class="widget-title">
+									<span class="color-main">Đăng ký</span>
+								</h3>
+
+								<p>
+									Luôn cập nhật những tin tức mới nhất của chúng tôi. Chúng tôi cam kết không spam!
+								</p>
+
+								<form class="signup" action="/">
+									<label for="mailchimp_email_text">
+										<span class="screen-reader-text">Đăng ký:</span>
+									</label>
+
+									<input id="mailchimp_email_text" name="email" type="email"
+										class="form-control mailchimp_email" placeholder="Your email">
+
+									<button type="submit" class="search-submit">
+										<span class="screen-reader-text">Đăng ký</span>
+									</button>
+									<div class="response"></div>
+								</form>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+
+			<section class="page_copyright ls s-py-20">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-12 text-center animate" data-animation="fadeInUp">
+							<p>&copy; COPYRIGHT 2016 ECOSPEED VIỆT NAM
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
